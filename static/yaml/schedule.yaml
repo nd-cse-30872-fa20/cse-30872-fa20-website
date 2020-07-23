@@ -1,0 +1,248 @@
+- name:     I/O
+  days:
+      - date:           Mon 08/10
+        topics:         Introduction, I/O
+        assignments:
+          - Reading 00
+
+      - date:           Wed 08/12
+        topics:         Complexity
+      
+      - date:           Fri 08/14
+        topics:         Coding Style
+
+      - date:           Sat 08/15
+        assignments:
+          - Challenge 00
+
+- name:     'Unit 01: Data Structures and Algorithms'
+
+- name:     Sequence Containers
+  days:
+      - date:           Mon 08/17
+        topics:         Arrays, Lists
+        assignments:
+          - Reading 01
+
+      - date:           Wed 08/19
+        topics:         Stacks, Queues
+
+      - date:           Fri 08/21
+        topics:         Debugging
+
+      - date:           Sat 08/22
+        assignments:
+          - Challenge 01
+          - Challenge 02
+
+- name:     Searching, Sorting
+  days:
+      - date:           Mon 08/24
+        topics:         Searching
+        assignments:
+          - Reading 02
+
+      - date:           Wed 08/26
+        topics:         Sorting
+
+      - date:           Fri 08/28
+        topics:         Testing
+
+      - date:           Sat 08/29
+        assignments:
+          - Challenge 03
+          - Challenge 04
+
+- name:     Associative Containers
+  days:
+      - date:           Mon 08/31
+        topics:         Maps, Sets
+        assignments:
+          - Reading 03
+
+      - date:           Wed 09/02
+        topics:         Hash Tables
+
+      - date:           Fri 09/04
+        topics:         Profiling
+
+      - date:           Sat 09/05
+        assignments:
+          - Challenge 05
+          - Challenge 06
+
+- name:     Complete Search
+  days:
+      - date:           Mon 09/07
+        topics:         Subsets and Permutations
+        assignments:
+          - Reading 04
+
+      - date:           Wed 09/09
+        topics:         Backtracking
+
+      - date:           Fri 09/11
+        topics:         Static Analysis
+
+      - date:           Sat 09/12
+        assignments:
+          - Challenge 07
+          - Challenge 08
+
+- name:     Greedy Algorithms
+  days:
+      - date:           Mon 09/14
+        topics:         Bit Manipulation
+        assignments:
+          - Reading 05
+
+      - date:           Wed 09/16
+        topics:         Greedy Algorithms
+
+      - date:           Fri 09/18
+        topics:         Documentation
+
+      - date:           Sat 09/19
+        assignments:
+          - Challenge 09
+          - Challenge 10
+
+- name:     Dynamic Programming
+  days:
+      - date:           Mon 09/21
+        topics:         Memoization
+        assignments:
+          - Reading 06
+
+      - date:           Wed 09/23
+        topics:         Table Building
+
+      - date:           Fri 09/25
+        topics:         Table Building
+
+      - date:           Sat 09/26
+        assignments:
+          - Challenge 11
+          - Challenge 12
+
+- name:     Contest I
+  days:
+      - date:           Mon 09/28
+        topics:         ''
+        items:
+          - name:       Contest I
+
+      - date:           Wed 09/30
+        topics:         ''
+        items:
+          - name:       Contest I
+
+
+      - date:           Fri 10/02
+        topics:         ''
+        items:
+          - name:       Contest I
+
+- name:     'Unit 02: Trees, Graphs'
+
+- name:     Trees
+  days:
+      - date:           Mon 10/05
+        topics:         Representation
+        assignments:
+          - Reading 07
+
+      - date:           Wed 10/07
+        topics:         Traversal
+
+      - date:           Fri 10/09
+        topics:         Divide and Conquer
+
+      - date:           Sat 10/10
+        assignments:
+          - Challenge 13
+          - Challenge 14
+
+- name:     Graphs I
+  days:
+      - date:           Mon 10/12
+        topics:         Representation
+        assignments:
+          - Reading 08
+
+      - date:           Wed 10/14
+        topics:         Traversal
+
+      - date:           Fri 10/16
+        topics:         Shortest Paths
+
+      - date:           Sat 10/17
+        assignments:
+          - Challenge 15
+          - Challenge 16
+
+- name:     Graphs II
+  days:
+      - date:           Mon 10/19
+        topics:         Spanning Trees
+        assignments:
+          - Reading 09
+
+      - date:           Wed 10/21
+        topics:         Topological Sorting
+
+      - date:           Fri 10/23
+        topics:         Building
+
+      - date:           Sat 10/24
+        assignments:
+          - Challenge 17
+          - Challenge 18
+
+- name:     Graphs III
+  days:
+      - date:           Mon 10/26
+        topics:         Paths
+        assignments:
+          - Reading 10
+
+      - date:           Wed 10/28
+        topics:         Flows and Cuts
+
+      - date:           Fri 10/30
+        topics:         Packaging
+
+      - date:           Sat 10/31
+        assignments:
+          - Challenge 19
+          - Challenge 20
+
+- name:     Miscellaneous
+  days:
+      - date:           Mon 11/02
+        topics:         Brain Teasers
+        assignments:
+          - Reading 11
+
+      - date:           Wed 11/04
+        topics:         Graduate School
+
+      - date:           Fri 11/06
+        topics:         Slacking and Hacking
+      
+      - date:           Sat 11/07
+        assignments:
+          - Challenge 21
+          - Challenge 22
+
+- name:     Contest II
+  days:
+      - date:           Mon 11/09
+        topics:         ''
+        items:
+          - name:       Contest II
+
+      - date:           Wed 11/11
+        topics:         ''
+        items:
+          - name:       Contest II
