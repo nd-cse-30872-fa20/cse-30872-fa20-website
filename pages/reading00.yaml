@@ -289,9 +289,6 @@ body:       |
                   Q3 0.00
                   Q4 0.00
                   Q5 0.00
-                  Q6 0.00
-                  Q7 0.00
-                  Q8 0.00
                Score 0.29
 
         This script will submit your `reading00/answers.json` file to [dredd],
