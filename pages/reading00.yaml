@@ -81,7 +81,7 @@ body:       |
     > [https://notredame.zoom.us/j/92409791318](https://notredame.zoom.us/j/92409791318)
 
     <div class="alert alert-warning" markdown="1">
-    #### <i class="fa fa-video-camera"></i> Notes
+    <p>Be aware of the following:</p><br>
 
     - You will need to signup and create a [Zoom] account if you don't already
       have one.  We recommend that you use the Notre Dame [Zoom] login system.
@@ -108,7 +108,7 @@ body:       |
     [class mailing list]: mailto:fa20-cse-30872-01-group@nd.edu
 
     <div class="alert alert-warning" markdown="1">
-    #### <i class="fa fa-slack"></i> Notes
+    <p>Be aware of the following:</p><br>
 
     - You will need to signup and create a [Slack] account if you don't already
       have one.
@@ -128,8 +128,7 @@ body:       |
 
         <div class="alert alert-info" markdown="1">
 
-        **Note**: You probably used **GitLab** last semester.  We are now
-        switching to [GitHub], which is:
+        You probably used **GitLab** last semester.  We are now switching to [GitHub], which is:
 
         <br>
 
@@ -296,9 +295,11 @@ body:       |
         and return to you a score as shown above.  Each reading is worth
         **4.0** points.
 
+        <div class="alert alert-success" markdown="1">
         **Note**: You may submit your quiz answers as many times as you want;
         [dredd] does not keep track of who submits what or how many times.  It
         simply returns a score.
+        </div>
 
     3. Once you have your answers file, you need to add, commit the file, and
     push your commits to [GitHub]:
@@ -309,9 +310,11 @@ body:       |
 
             $ git push -u origin reading00        # Push branch to GitHub
 
+        <div class="alert alert-success" markdown="1">
         **Note**: You may edit and commit changes to your branch as many times
         as you wish.  Just make sure all of your work goes in the appropriate
         branch and then perform a `git push` when you are done.
+        </div>
 
     4. When you are ready for your final submission, you need to create a
     **pull request** via the [GitHub] interface:
