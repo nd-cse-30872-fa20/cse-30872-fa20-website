@@ -12,6 +12,9 @@
 
       - date:           Wed 08/12
         topics:         Complexity
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1E7_WJBTwHySAIkcuw6vN9IY83DbPy4Na78cpLJiZ5U8/edit?usp=sharing
       
       - date:           Fri 08/14
         topics:         Coding Style
