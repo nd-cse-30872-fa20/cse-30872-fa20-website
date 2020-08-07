@@ -1,9 +1,14 @@
 - name:     I/O
   days:
       - date:           Mon 08/10
-        topics:         Introduction, I/O
+        topics:         Syllabus, I/O
         assignments:
           - Reading 00
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/15mpgLddY285oFa79oYBSuHh7jWjXMcq2ZnfrntVqQC0/edit?usp=sharing
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1hZJLrICPYZb9o1twazxbZ3YRAGsYc_W-Uc-bl38v61M/edit?usp=sharing
 
       - date:           Wed 08/12
         topics:         Complexity
