@@ -50,6 +50,9 @@
 
       - date:           Fri 08/21
         topics:         Debugging
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1XNUPZ05ygpDjM5wkAEcxAkqPXtetuvXo0DFmJgFtLYA/edit?usp=sharing
 
       - date:           Sat 08/22
         assignments:
