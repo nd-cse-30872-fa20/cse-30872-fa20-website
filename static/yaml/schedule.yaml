@@ -43,6 +43,8 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1Mh8fJn-LeT7KJXBp3HvTHo-_Y9geugTYCWDGwmGFUnU/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=124ff809-226d-4748-86b5-ac1a0103f6ed
 
       - date:           Wed 08/19
         topics:         Stacks, Queues
