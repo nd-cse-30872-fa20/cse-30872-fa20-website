@@ -1,0 +1,137 @@
+title:      "Challenge 07: Atypical Riddle"
+icon:       fa-code
+navigation: []
+internal:
+external:
+body:       |
+
+    <img src="static/img/challenge07-batman.png" class="img-response pull-right">
+
+    [Batman] is an **atypical** "superhero".  Unlike [Spider-man], [Batman] has
+    no special powers (unless you count being _filthy_ _rich_ a superpower).
+    That said, he is, for better or worse, greatly respected for being a
+    crime-fighter by his many fans.  Despite his dour demeanor, [Batman] at
+    times displays moments of humor and periodically manifests his modest
+    intellect.
+
+    In this programming challenge, [Batman] is locked in a battle of wits with
+    the [Riddler].  Once again, the green supervillain has a mind-bending,
+    brain-teasing challenge for the masked avenger:
+    
+    > Find all the pairs of `5`-digit numbers that use the digits `0` through
+    `9` once each, such that the first number divided by the second is equal to
+    some integer `N`, where `N` is between `2` and `100` (inclusive).  
+    
+    That is, given the digits `0, 1, 2, 3, 4, 5, 6, 7, 8, 9` and a number `N`,
+    find all permutations of these digits such that:
+
+        :::text
+        abcde / fghij = N
+
+    where each letter represents a different digit.  The first digit of one of
+    the numerals is allowed to be `0`.
+
+    Because [Batman] lacks any significant superpower (besides money), he begs
+    that you help him defeat the [Riddler] by using your [programming superpowers].
+
+    [Batman]:       https://www.scoopwhoop.com/batman-is-a-terrible-superhero/#.iq2s973bh
+    [Spider-man]:   https://en.wikipedia.org/wiki/Spider-Man
+    [Riddler]:      https://en.wikipedia.org/wiki/Riddler
+    [programming superpowers]: https://www.youtube.com/watch?v=Bwiln7v0fdc
+
+    ## Input
+
+    Each line of input consists of a valid integer `N`.  An input of `0`
+    terminates the program (no output should be displayed for it).
+
+    ### Example Input
+
+        :::text
+        61
+        62
+        0
+
+    ## Output
+
+    The program should display **ALL** pairs of numerals that match the
+    description above.  The numerators should be sorted by increasing numerator
+    and denominator and displayed in the following format:
+
+        :::text
+        XXXXX / XXXXX = N
+        XXXXX / XXXXX = N
+        ...
+
+    If there are no pairs of numerals satisfying the atypical division
+    condition, then the program should display: "There are no solutions for N".
+
+    Separate the output for two different values of `N` by a blank line.
+
+    ### Example Output
+
+        :::text
+        There are no solutions for 61.
+
+        79546 / 01283 = 62
+        94736 / 01528 = 62
+
+    <div class="alert alert-info" markdown="1">
+    #### <i class="fa fa-lightbulb-o"></i> Programming Challenges
+
+    This is based on the
+    [Division](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=361&page=show_problem&problem=666)
+    problem on the [UVa Online Judge].
+
+    </div>
+
+    [UVa Online Judge]:                     https://uva.onlinejudge.org
+    [Elements of Programming Interviews]:   http://elementsofprogramminginterviews.com/
+
+    ## Submission
+
+    To submit your work, follow the same procedure you used for [Reading 00]:
+
+        :::bash
+        $ cd path/to/cse-30872-fa20-assignments     # Go to assignments repository
+        $ git checkout master                       # Make sure we are on master
+        $ git pull --rebase                         # Pull any changes from GitHub
+
+        $ git checkout -b challenge07               # Create and checkout challenge07 branch
+
+        $ $EDITOR challenge07/program.cpp           # Edit your code
+
+        $ git add challenge07/program.cpp           # Stage your changes
+        $ git commit -m "challenge07: done"         # Commit your changes
+
+        $ git push -u origin challenge07            # Send changes to GitHub
+
+    To check your code, you can use the `.scripts/submit.py` script or [curl]:
+
+        :::bash
+        $ .scripts/submit.py
+        Submitting challenge07 assignment ...
+        Submitting challenge07 code ...
+          Result Success
+           Score 6.00
+            Time 0.11
+
+        $ curl -F source=@challenge07/program.cpp https://dredd.h4x0r.space/code/cse-30872-fa20/challenge07
+        {"result": "Success", "score": 6, "time": 0.11480951309204102}
+
+
+    <div class="alert alert-success" markdown="1">
+    #### <i class="fa fa-github"></i> Pull Request
+
+    Once you have committed your work and pushed it to [GitHub], remember to
+    create a **pull request** and assign it to the appropriate **teaching
+    assistant** from the [Reading 04 TA List].
+
+    </div>
+
+    [GitHub]:                               https://github.com
+    [Reading 00]:                           reading00.html
+    [Reading 04 TA List]:                   reading04_tas.html
+
+    [HackerRank]:       https://www.hackerrank.com
+    [LeetCode]:         https://leetcode.com
+    [curl]:             https://curl.haxx.se/
