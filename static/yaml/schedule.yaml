@@ -51,6 +51,8 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1f0myltwmqqX1UwOrC37R52f4g6RnQXiPJ63PyHzZcqU/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cb220b1e-375c-4977-b60d-ac1c010eea64
 
       - date:           Fri 08/21
         topics:         Debugging
