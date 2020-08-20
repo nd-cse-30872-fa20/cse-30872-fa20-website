@@ -86,9 +86,11 @@ body:       |
         0672
         0676
 
+    <div class="alert alert-warning" markdown="1">
     **Note**: Output the numbers in **ascending order** and ensure there is a
     single **blank line** between the outputs of the pairs of starting
     positions and hops.
+    </div>
 
     <div class="alert alert-info" markdown="1">
     #### <i class="fa fa-lightbulb-o"></i> Programming Challenges
