@@ -62,12 +62,10 @@ body:       |
         $ ../.scripts/submit.py               # Check reading04 quiz
         Submitting reading04 assignment ...
         Submitting reading04 quiz ...
-             Q01 0.50
-             Q02 0.50
-             Q03 0.50
-             Q04 0.50
-             Q05 0.50
-             Q06 0.50
+             Q01 0.75
+             Q02 0.75
+             Q03 0.75
+             Q04 0.75
            Score 3.00
 
         $ git add answers.json                # Add answers.json to staging area
