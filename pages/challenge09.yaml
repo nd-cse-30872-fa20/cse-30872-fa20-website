@@ -1,0 +1,111 @@
+title:      "Challenge 09: Binary Strings"
+icon:       fa-code
+navigation: []
+internal:
+external:
+body:       |
+
+    <img src="static/img/challenge09-cat.jpg" class="img-response pull-right">
+
+    Before deciding going to [CMU] for graduate school, [Cat] was considering
+    selling out and getting a real job out in industry.  To do so, however, she had
+    to pass the dreaded programming interviews.  In one of her first interviews,
+    she faced the following problem:
+
+    > Given a length `N` and a count `K`, generate all the binary strings with
+    exactly `K` `1`'s.  You will need to support binary strings of `1 <= N <=
+    16`.
+
+    Being a **noob** at the time [^1], she failed and didn't pass the interview
+    [^2].  Her failure on this interview question haunts her to this day [^3].
+
+    This is your opportunity to show that you are just as good as a [CMU]
+    graduate student and solve this problem for [Cat] once and for all.
+
+    [CMU]: https://www.cmu.edu/
+    [Cat]: https://www.linkedin.com/in/catvajiac
+
+    [^1]:       She is still a noob. <3.
+    [^2]:       Should have taken Programming Challenges... oh wait... ~RIP~.
+    [^3]:       Just like the time she casted a *string* into a *double* in Systems Programming. **SMH**
+
+    ## Input
+
+    You will be given a series of inputs where each line specifies `N` (length
+    of binary string) and `K` (the number of `1`s in the binary string):
+
+    ### Example Input
+
+        :::text
+        4 3
+        4 4
+
+    ## Output
+
+    For each pair of `N` and `K` inputs, print out all the binary strings with
+    length `N` that contain exactly `K` `1`s.  If there is more than one binary
+    string, then display them in lexigraphical order.
+
+    <div class="alert alert-warning" markdown="1">
+    **Note**: Separate test cases by placing a blank line **between** them as
+    shown below.
+    </div>
+
+    ### Example Output
+
+        :::text
+        0111
+        1011
+        1101
+        1110
+
+        1111
+
+    ## Submission
+
+    To submit your work, follow the same procedure you used for [Reading 00]:
+
+        :::bash
+        $ cd path/to/cse-30872-fa20-assignments     # Go to assignments repository
+        $ git checkout master                       # Make sure we are on master
+        $ git pull --rebase                         # Pull any changes from GitHub
+
+        $ git checkout -b challenge09               # Create and checkout challenge09 branch
+
+        $ $EDITOR challenge09/program.cpp           # Edit your code
+
+        $ git add challenge09/program.cpp           # Stage your changes
+        $ git commit -m "challenge09: done"         # Commit your changes
+
+        $ git push -u origin challenge09            # Send changes to GitHub
+
+    To check your code, you can use the `.scripts/submit.py` script or [curl]:
+
+        :::bash
+        $ .scripts/submit.py
+        Submitting challenge09 assignment ...
+        Submitting challenge09 code ...
+          Result Success
+           Score 6.00
+            Time 0.52
+
+        $ curl -F source=@challenge09/program.cpp https://dredd.h4x0r.space/code/cse-30872-fa20/challenge09
+        {"result": "Success", "score": 6, "time": 0.5163395404815674}
+
+
+    <div class="alert alert-success" markdown="1">
+    #### <i class="fa fa-github"></i> Pull Request
+
+    Once you have committed your work and pushed it to [GitHub], remember to
+    create a **pull request** and assign it to the appropriate **teaching
+    assistant** from the [Reading 05 TA List].
+
+    </div>
+
+    [GitHub]:                               https://github.com
+    [Reading 00]:                           reading00.html
+    [Reading 05 TA List]:                   reading05_tas.html
+
+    [HackerRank]:       https://www.hackerrank.com
+    [LeetCode]:         https://leetcode.com
+    [curl]:             https://curl.haxx.se/
