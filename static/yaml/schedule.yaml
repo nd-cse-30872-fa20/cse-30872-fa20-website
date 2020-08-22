@@ -85,6 +85,9 @@
 
       - date:           Fri 08/28
         topics:         Testing
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1C55Cl6IU5825TWx6oeytwxIwfFm-AzstzLJXXYRBHfA/edit?usp=sharing
 
       - date:           Sat 08/29
         assignments:
