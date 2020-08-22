@@ -100,9 +100,12 @@
         topics:         Maps, Sets
         assignments:
           - Reading 03
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1aT4AJ6S1ACsqWnFIHWrt7bKFUhxYvJVOmX7WsBI2DFQ/edit?usp=sharing
 
       - date:           Wed 09/02
-        topics:         Hash Tables
+        topics:         Memoization, History
 
       - date:           Fri 09/04
         topics:         Profiling
@@ -151,7 +154,7 @@
 - name:     Dynamic Programming
   days:
       - date:           Mon 09/21
-        topics:         Memoization
+        topics:         Memoization (Again)
         assignments:
           - Reading 06
 
