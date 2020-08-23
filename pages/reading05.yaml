@@ -63,10 +63,9 @@ body:       |
         Submitting reading05 assignment ...
         Submitting reading05 quiz ...
               Q1 1.00
-              Q2 0.50
-              Q3 0.75
+              Q2 1.00
+              Q3 0.50
               Q4 0.50
-              Q5 0.25
            Score 3.00
 
         $ git add answers.json                # Add answers.json to staging area
