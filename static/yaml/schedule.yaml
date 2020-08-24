@@ -107,10 +107,10 @@
             link:       https://docs.google.com/presentation/d/1aT4AJ6S1ACsqWnFIHWrt7bKFUhxYvJVOmX7WsBI2DFQ/edit?usp=sharing
 
       - date:           Wed 09/02
-        topics:         Memoization, History
+        topics:         Memoization, Profiling
 
       - date:           Fri 09/04
-        topics:         Profiling
+        topics:         History
 
       - date:           Sat 09/05
         assignments:
