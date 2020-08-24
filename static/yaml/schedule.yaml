@@ -76,6 +76,8 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1feEiXt8d1X0dGkAkUkLhDROgAoRJx8sFssfDEMxYdHU/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3771bfff-2487-429b-9e9a-ac210108a93c
 
       - date:           Wed 08/26
         topics:         Sorting
