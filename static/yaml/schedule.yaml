@@ -132,6 +132,9 @@
 
       - date:           Fri 09/11
         topics:         Static Analysis
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1qTA3C9HEDfO6gnYAvTm-gbuF81IZQzXnUfP6GB2dmTw/edit?usp=sharing
 
       - date:           Sat 09/12
         assignments:
@@ -144,9 +147,15 @@
         topics:         Bit Manipulation
         assignments:
           - Reading 05
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1b7mGoiEHnLw3u9I40krIIWVnZccaOtvG5xQKWmnUOLA/edit?usp=sharing
 
       - date:           Wed 09/16
         topics:         Greedy Algorithms
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1CIr_4pFEGjUjDmsXb2UswvFdsA7yAFqPwLMo3aYTwOM/edit?usp=sharing
 
       - date:           Fri 09/18
         topics:         Documentation
