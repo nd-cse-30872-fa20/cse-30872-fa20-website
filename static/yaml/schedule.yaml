@@ -84,6 +84,8 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1lJfp4gjTGGJqkqT5l1-O_JkBBNeudvLso03jhEsdMZM/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a99cf0d-e07e-4bce-8a8a-ac2301093058
 
       - date:           Fri 08/28
         topics:         Testing
