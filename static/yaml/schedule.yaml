@@ -163,6 +163,9 @@
 
       - date:           Fri 09/18
         topics:         Documentation
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1AwWBjKMBVttMezezx1dCrWgyZyebxMHHyq4zfBC2Mu4/edit?usp=sharing
 
       - date:           Sat 09/19
         assignments:
