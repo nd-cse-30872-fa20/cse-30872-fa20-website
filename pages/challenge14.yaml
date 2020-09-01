@@ -5,7 +5,7 @@ internal:
 external:
 body:       |
 
-    Even though it is mid-June, it is never too early to break out the
+    Even though it is the beginning of October, it is never too early to break out the
     **Christmas** decorations and get ready for the the best holiday of the
     year [^1].  In the spirit of bringing the joy of Computer Science to
     everyone, the instructor has decided to have his kids make their own [binary christmas tree]:
@@ -38,7 +38,7 @@ body:       |
     [breadth-first order]:      https://en.wikipedia.org/wiki/Breadth-first_search
     [binary christmas tree]:    https://www.xkcd.com/835/
     
-    [^1]: My kids have already begun making a wish list consisting of mostly of Pokemon and Minecraft related items.
+    [^1]: My kids have already begun making a wish list consisting of mostly of Pokemon and Minecraft related items.  Hopefully it isn't cancelled...
 
     ## Input
 
