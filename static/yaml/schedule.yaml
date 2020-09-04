@@ -109,12 +109,20 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1aT4AJ6S1ACsqWnFIHWrt7bKFUhxYvJVOmX7WsBI2DFQ/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43ffc745-3ebd-4845-8d8d-ac28010625a9
 
       - date:           Wed 09/02
         topics:         Memoization, Profiling
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e678a28-57a4-4230-97fd-ac2a01060391
 
       - date:           Fri 09/04
         topics:         History
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d52b7b8e-768f-4847-a904-ac2c01023ced
 
       - date:           Sat 09/05
         assignments:
