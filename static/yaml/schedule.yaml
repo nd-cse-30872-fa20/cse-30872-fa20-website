@@ -132,7 +132,7 @@
 - name:     Complete Search
   days:
       - date:           Mon 09/07
-        topics:         Subsets and Permutations
+        topics:         Subsets
         assignments:
           - Reading 04
         items:
@@ -140,7 +140,7 @@
             link:       https://docs.google.com/presentation/d/1-cCFXdHxMmXKaTG6Og4DiJ7_MCFZZwl_zw_WE2CVJTQ/edit?usp=sharing
 
       - date:           Wed 09/09
-        topics:         Backtracking
+        topics:         Permutations, Backtracking
 
       - date:           Fri 09/11
         topics:         Static Analysis
