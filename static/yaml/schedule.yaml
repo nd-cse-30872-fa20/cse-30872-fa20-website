@@ -143,6 +143,10 @@
 
       - date:           Wed 09/09
         topics:         Permutations, Backtracking
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82ae1692-9947-4e59-944e-ac31010ee2f8
+
 
       - date:           Fri 09/11
         topics:         Static Analysis
