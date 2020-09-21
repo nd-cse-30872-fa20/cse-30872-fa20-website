@@ -203,6 +203,8 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1O5Pndavp71As3nG0zNU9N-meezzW2FgVS3GycH7-2i0/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5e6c8114-f6ce-4752-b385-ac3d010d9bce
 
       - date:           Wed 09/23
         topics:         Table Building
