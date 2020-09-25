@@ -214,6 +214,9 @@
 
       - date:           Fri 09/25
         topics:         Table Building
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dcaa5656-aa78-446a-9cb2-ac4100faea72
 
       - date:           Sat 09/26
         assignments:
