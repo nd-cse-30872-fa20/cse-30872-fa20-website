@@ -1,3 +1,11 @@
+/* Utility functions */
+
+function titleCase(str) {
+    return str.split(' ').map(function(val){
+	return val.charAt(0).toUpperCase() + val.substr(1).toLowerCase();
+    }).join(' ');
+}
+
 /* AJAX functions */
 
 function requestJSON(url, callback) {
@@ -32,10 +40,50 @@ function generateJSON() {
     document.getElementById('quiz-responses').innerHTML = `<textarea class="form-control" rows="${lines.length}" cols="72">${text}</textarea>`;
 }
 
+function submitQuiz(quiz_url) {
+	// take take the key element from generateJSON()
+	var responses = {};
+	var dr = document.getElementById('dredd-response');
+	dr.innerHTML = '';
+    $("#quiz-form").serializeArray().map(function(response){
+    	if (response.name in responses && !(responses[response.name] instanceof Array)) {
+	    responses[response.name] = [responses[response.name], response.value];
+	} else {
+	    if (responses[response.name] instanceof Array) {
+		responses[response.name].push(response.value);
+	    } else {
+		responses[response.name] = response.value;
+	    }
+	}
+	});
+	// first, erase the innerHTML of the JSON box
+	document.getElementById('quiz-responses').innerHTML = ``;
+	var assignment_name = quiz_url.slice(12,21);
+	var url = 'https://dredd.h4x0r.space/quiz/cse-30872-fa20/' + assignment_name;
+	fetch(url, {
+		body: JSON.stringify(responses),
+		method: 'POST'
+	})
+	.then(res => res.json())
+	.then(data => {
+		// data now contains JSON from dredd
+		dr.innerHTML += `Checking ${assignment_name} quiz ...\n`;
+		for (const question in data) {
+			if (question === 'score') {
+				continue;
+			}
+			dr.innerHTML += (`${titleCase(question).padStart(8, " ")} ${data[question].toFixed(2)}\n`);
+		}
+		dr.innerHTML += `   Score ${data['score'].toFixed(2)}`
+		// show the results
+		document.getElementById('dr-container').style.display = 'block';
+	});
+}
+
 function loadQuiz(quiz_url) {
     requestJSON(quiz_url, function(data) {
 	var html = ['<form id="quiz-form"><ol>']
-	
+
 	Object.keys(data).sort().forEach(function(question) {
 	    html.push(`<li><div class="form-group">${data[question].question}`);
 
@@ -72,8 +120,12 @@ function loadQuiz(quiz_url) {
 	    html.push('</div></li>');
 	});
 	html.push('</ol>');
-	html.push('<div class="text-right"><button type="button" class="btn btn-primary" onclick="generateJSON()">Generate</button></div>');
+
+
+
+	html.push(`<div class="text-right"><button type="button" class="btn btn-primary" style="margin-right: 10px !important" onclick="generateJSON()">Generate</button><button type="button" class="btn btn-primary" onclick="submitQuiz('${quiz_url}')">Check</button></div>`);
 	html.push('<br></form>');
+
 
 	document.getElementById('quiz-questions').innerHTML = html.join('');
     });
