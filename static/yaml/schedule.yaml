@@ -330,7 +330,7 @@
 - name:     Miscellaneous
   days:
       - date:           Mon 11/02
-        topics:         Brain Teasers
+        topics:         Primes, Modular Arithmetic
         assignments:
           - Reading 11
 
