@@ -257,6 +257,9 @@
 
       - date:           Wed 10/07
         topics:         Traversal
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1352fcac-0faa-4118-94b5-ac4d010640eb
 
       - date:           Fri 10/09
         topics:         Divide and Conquer
