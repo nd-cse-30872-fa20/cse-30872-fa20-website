@@ -320,6 +320,9 @@
         topics:         Paths
         assignments:
           - Reading 10
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/121r0VzG9MBDwrWBBFzRwfVf-4W4LgdL0FvLpllJsOJQ/edit?usp=sharing
 
       - date:           Wed 10/28
         topics:         Flows and Cuts
