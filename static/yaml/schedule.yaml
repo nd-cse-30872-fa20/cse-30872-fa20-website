@@ -286,6 +286,9 @@
 
       - date:           Wed 10/14
         topics:         Traversal
+        items:
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fa081dc-a5d9-49bb-a958-ac540109ee9a
 
       - date:           Fri 10/16
         topics:         Shortest Paths
