@@ -310,6 +310,8 @@
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1pLr86ekUjisS4m_KsCHvA4A-A_5WxlhAWqGagbZsSms/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9bb2948-946e-4701-b2d3-ac590105bbea
 
       - date:           Wed 10/21
         topics:         Topological Sorting
