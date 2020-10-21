@@ -315,6 +315,9 @@
 
       - date:           Wed 10/21
         topics:         Topological Sorting
+        items:
+          - name:       Slides
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15439044-a860-49ea-b6f5-ac5b0102f813
 
       - date:           Fri 10/23
         topics:         Building
