@@ -214,7 +214,7 @@ body:       |
                     <td class="text-center text-strong"><tt>{{ day['date'] }}</tt></td>
                     <td class="text-strong">
                     {% if 'topics' in day %}
-                      {% if day['topics'] == 'Thanksgiving' %}
+                      {% if day['topics'] == 'Office Hours' %}
                       <i class="text-muted">{{ day.get('topics', '') }}</i>
                       {% else %}
                       {{ day.get('topics', '') }}
