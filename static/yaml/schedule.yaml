@@ -322,10 +322,7 @@
             link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15439044-a860-49ea-b6f5-ac5b0102f813
 
       - date:           Fri 10/23
-        topics:         Building
-        items:
-          - name:       Slides
-            link:       https://docs.google.com/presentation/d/1xXOhwi_eiYu9uovCTr73q_9xwkIFMDw3rVLRf2nOtTs/edit?usp=sharing
+        topics:         Office Hours
 
       - date:           Sat 10/24
         assignments:
@@ -346,7 +343,7 @@
         topics:         Flows and Cuts
 
       - date:           Fri 10/30
-        topics:         Packaging
+        topics:         Office Hours
 
       - date:           Sat 10/31
         assignments:
@@ -356,15 +353,15 @@
 - name:     Miscellaneous
   days:
       - date:           Mon 11/02
-        topics:         Primes, Modular Arithmetic
+        topics:         Graduate School
         assignments:
           - Reading 11
 
       - date:           Wed 11/04
-        topics:         Graduate School
+        topics:         Slacking and Hacking
 
       - date:           Fri 11/06
-        topics:         Slacking and Hacking
+        topics:         Office Hours
       
       - date:           Sat 11/07
         assignments:
