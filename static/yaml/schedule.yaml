@@ -361,6 +361,11 @@
         topics:         Graduate School
         assignments:
           - Reading 11
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1nyvizI8-chPlw00m5f9631y4RJIpDoFpgtd9bbZKS2Q/edit?usp=sharing
+          - name:       Panopto
+            link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f15c270-e12e-40d7-852e-ac6701105272
 
       - date:           Wed 11/04
         topics:         Slacking and Hacking
